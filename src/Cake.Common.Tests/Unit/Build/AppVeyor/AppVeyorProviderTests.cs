@@ -204,8 +204,6 @@ namespace Cake.Common.Tests.Unit.Build.AppVeyor
                 // Then
                 Assert.IsCakeException(result, "The deployment name can not contain spaces");
             }
-
-
         }
 
         public sealed class TheUpdateBuildVersionMethod
